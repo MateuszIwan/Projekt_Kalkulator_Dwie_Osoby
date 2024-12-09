@@ -12,5 +12,9 @@ namespace Projekt_Kalkulator_Dwie_Osoby
         {
             return a + b;
         }
+        public int Mnozenie(int a, int b)
+        {
+            return a * b;
+        }
     }
 }
