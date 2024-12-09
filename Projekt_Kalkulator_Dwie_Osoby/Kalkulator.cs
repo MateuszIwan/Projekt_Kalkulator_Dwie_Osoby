@@ -12,12 +12,12 @@ namespace Projekt_Kalkulator_Dwie_Osoby
         {
             return a + b;
         }
-        public int Odejmowanie(int a, int b) //odejmuje liczbe b od liczby a
+        public static int Odejmowanie(int a, int b) //odejmuje liczbe b od liczby a
         {
             return a - b;
         }
 
-        public int Dzielenie(int a, int b)
+        public static int Dzielenie(int a, int b)
         {
             if(b == 0)
             {
@@ -25,7 +25,7 @@ namespace Projekt_Kalkulator_Dwie_Osoby
             }
             return a / b;
         }
-        public int Mnozenie(int a, int b)
+        public static int Mnozenie(int a, int b)
         {
             return a * b;
         }
