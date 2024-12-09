@@ -12,5 +12,14 @@ namespace Projekt_Kalkulator_Dwie_Osoby
         {
             return a - b;
         }
+
+        public int Dzielenie(int a, int b)
+        {
+            if(b == 0)
+            {
+                throw new DivideByZeroException();
+            }
+            return a / b;
+        }
     }
 }
