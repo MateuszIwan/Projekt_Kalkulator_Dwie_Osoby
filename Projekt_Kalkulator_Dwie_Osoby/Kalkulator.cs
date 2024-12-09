@@ -12,5 +12,9 @@ namespace Projekt_Kalkulator_Dwie_Osoby
         {
             return a + b;
         }
+        public int Odejmowanie(int a, int b) //odejmuje liczbe b od liczby a
+        {
+            return a - b;
+        }
     }
 }
