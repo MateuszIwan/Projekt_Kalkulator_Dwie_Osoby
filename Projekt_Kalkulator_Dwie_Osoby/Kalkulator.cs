@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Projekt_Kalkulator_Dwie_Osoby
 {
-    internal class Program
+    internal class Kalkulator
     {
-        static void Main(string[] args)
-        {
 
-        }
     }
 }
